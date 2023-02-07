@@ -21,5 +21,14 @@ public class ExceptionChallenge {
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
     public void mustThrow(){
+        Second();
+
     }
+
+    void Second() throws ArrayIndexOutOfBoundsException{
+        String test = null;
+        test.toString();
+
+    }
+
 }
